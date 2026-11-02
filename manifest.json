@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Moja — Ad Spend & Sales Insights",
+  "short_name": "Moja",
+  "version": "1.0.0",
+  "description": "Track ad spend, sales, ROAS and estimated profit in one dashboard.",
+  "action": { "default_popup": "popup.html", "default_title": "Open Moja" },
+  "background": { "service_worker": "service-worker.js", "type": "module" },
+  "permissions": ["storage", "notifications", "alarms"],
+  "options_page": "options.html",
+  "chrome_url_overrides": {},
+  "icons": {}
+}
